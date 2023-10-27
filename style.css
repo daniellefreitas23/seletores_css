@@ -11,6 +11,10 @@ p {
     color: red;
 }
 
+main {
+    margin-top: 1rem;
+}
+
 /* seletor pela class */
 .paragrafo {
     border: 1px solid cyan;
@@ -18,4 +22,16 @@ p {
     margin-top: 1rem;
 }
 
-/* seletor  */
+/* seletor pelo id */
+#titulo {
+    color: #0f0;
+    margin-bottom: 1rem;
+}
+
+/* seletor por atributo */
+input[type="password"] {
+    font-size: 3rem;
+}
+input {
+    
+}
